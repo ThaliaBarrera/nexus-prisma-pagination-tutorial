@@ -57,9 +57,15 @@ The Relay specification seeks to provide a way for GraphQL clients to handle [pa
 
 The connection model in the query provides a standard technique for slicing and paginating the result set. The connection model offers a standard way of presenting cursors in the response and a mechanism of informing the client when further results are available.
 
-We will use the following technologies to accomplish the goals mentioned above: SQLite, Prisma Framework, GraphQL Nexus (nexus-prisma package), and Apollo Server.
+We will use the following technologies to accomplish the goals mentioned above:
+-   SQLite
+-   Prisma
+-   GraphQL Nexus (nexus-prisma package)
+-   Apollo Server.
 
-We will also use two models to demonstrate the concept: **Users** and **Tweets**. The ultimate goal is to use cursor-based pagination on a list of tweets. So, let's get started!
+We will also use two models to demonstrate the concept: **Users** and **Tweets**.
+
+**The ultimate goal is to use cursor-based pagination on a list of tweets. So, let's get started!**
 
 ## Tutorial
 ### This tutorial comprises the following steps
