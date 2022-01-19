@@ -4,11 +4,11 @@
 
 API queries to large databases could provide millions of results. Pagination helps to limit the amount of results, which helps to keep network traffic under control. Therefore, traversing sets of items is a frequent use case in GraphQL.
 
-Let’s evaluate the following two options we have:
+Consider that we have a list of friends that we need to paginate. Let’s evaluate the following two options we have:
 
--   Use `(first:2 offset:2)` to request the next two items on the list.
+-   Use `(first:2 offset:2)` as parameters to request the next two items on the list.
 
--   Use `(first:2 after:$friendCursor)`to retrieve a cursor from the previous item and use it to paginate.
+-   Use `(first:2 after:$friendCursor)` as parameters to retrieve a cursor from the previous item and use it to paginate.
 
 The first alternative is an example of **offset pagination**, whereas the second is an example of **cursor-based pagination**.
 
