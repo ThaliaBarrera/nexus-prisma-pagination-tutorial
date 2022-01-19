@@ -108,28 +108,28 @@ Now, add the necessary dependencies. You can copy the following code into your `
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
-	"generate": "npx prisma generate",
-	"dev": "ts-node-dev --transpile-only --no-notify src/server.ts",
-	"build": "tsc"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"generate": "npx prisma generate",
+		"dev": "ts-node-dev --transpile-only --no-notify src/server.ts",
+		"build": "tsc"
 
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-	"@types/node": "^17.0.10",
-	"ts-node-dev": "^1.1.8",
-	"typescript": "^4.5.4"
+		"@types/node": "^17.0.10",
+		"ts-node-dev": "^1.1.8",
+		"typescript": "^4.5.4"
 	},
 	"dependencies": {
-	"@prisma/client": "^3.8.1",
-	"apollo-server": "^3.6.1",
-	"graphql": "^15.5.0",
-	"nexus": "^1.1.0",
-	"nexus-plugin-prisma": "^0.35.0",
-	"nexus-prisma": "^0.35.0",
-	"prisma": "^3.8.1"
+		"@prisma/client": "^3.8.1",
+		"apollo-server": "^3.6.1",
+		"graphql": "^15.5.0",
+		"nexus": "^1.1.0",
+		"nexus-plugin-prisma": "^0.35.0",
+		"nexus-prisma": "^0.35.0",
+		"prisma": "^3.8.1"
 	}
 }
 ```
@@ -138,14 +138,14 @@ If you’ll be using Typescript, create a `tsconfig.json` file and add the follo
 ```json
 {
 	"compilerOptions": {
-	"target": "ES2018",
-	"module": "commonjs",
-	"lib": ["esnext"],
-	"strict": true,
-	"rootDir": ".",
-	"outDir": "dist",
-	"sourceMap": true,
-	"esModuleInterop": true
+		"target": "ES2018",
+		"module": "commonjs",
+		"lib": ["esnext"],
+		"strict": true,
+		"rootDir": ".",
+		"outDir": "dist",
+		"sourceMap": true,
+		"esModuleInterop": true
 	}
 }
 ```
