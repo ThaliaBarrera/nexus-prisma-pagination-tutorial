@@ -180,7 +180,7 @@ In that file, add a nexusPrisma generator, and then, our first two models: **Use
 
 In the end, your file should look like this.
 
-```json
+```typescript
 generator client {
 	provider = "prisma-client-js"
 }
