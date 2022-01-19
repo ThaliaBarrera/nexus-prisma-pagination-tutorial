@@ -62,7 +62,7 @@ We will use the following technologies to accomplish the goals mentioned above: 
 We will also use two models to demonstrate the concept: **Users** and **Tweets**. The ultimate goal is to use cursor-based pagination on a list of tweets. So, let's get started!
 
 ## Tutorial
-This tutorial comprises the following steps:
+### This tutorial comprises the following steps
 
 1.  [Configure the project and install dependencies](#step1)
 
@@ -76,9 +76,9 @@ This tutorial comprises the following steps:
 
 6.  [Test the pagination!](#step6)
 
-### Prerequisites:
+### Prerequisites
 
--   Node.js
+-   Node.js installed
 
 ### <a name="step1"></a> Configure the project and install dependencies
 
